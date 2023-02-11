@@ -47,6 +47,11 @@
                 <div>
                     <label for="city">Your City</label>
                     <input type="text" id="city" name="city">
+
+                    <label for="Your Secret Code ">Your Secret Code</label>
+                    <span class="required-field">*</span>
+                    <input type="text" id="Your Secret Code" name="Your Secret Code"  required pattern="[a-z0-9A-z]{6}" password title="6 Alphanumeric Character Passcode">
+                
                     <label for="state">Your State</label>
                     <input list="state-list" id="state" name="state">
                     <datalist id="state-list">
